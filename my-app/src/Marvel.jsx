@@ -8,7 +8,7 @@ function Marvel(props){
         <div className='marvel-ego'>{props.ego}</div>
         <div className='marvel-type_of_activity'>{props.type_of_activity}</div>
         <div className='marvel_superpower'>{props.superpower}</div>
-        <img src={props.url}/>
+        <img src={props.url} alt=""/>
         <div className='marvel-more'>{props.more}</div>
       </div>
     )
